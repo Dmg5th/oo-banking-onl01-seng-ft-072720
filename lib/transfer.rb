@@ -19,7 +19,7 @@ class Transfer
       self.status = 'complete'
       end 
     else 
-      
+      @status = "rejected"
     end 
     
     
